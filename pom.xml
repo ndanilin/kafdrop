@@ -257,11 +257,11 @@
                                         <descriptorRef>artifact</descriptorRef>
                                     </assembly>
                                 </assemblies>
-                                <buildx>
-                                    <platforms>
-                                        <platform>${docker.platforms}</platform>
-                                    </platforms>
-                                </buildx>
+<!--                                <buildx>-->
+<!--                                    <platforms>-->
+<!--                                        <platform>${docker.platforms}</platform>-->
+<!--                                    </platforms>-->
+<!--                                </buildx>-->
                                 <contextDir>${project.build.directory}/docker-ready</contextDir>
                                 <noCache>true</noCache>
                             </build>
