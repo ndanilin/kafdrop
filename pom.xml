@@ -250,7 +250,7 @@
                 <configuration>
                     <images>
                         <image>
-                            <name>obsidiandynamics/kafdrop:${project.version}</name>
+                            <name>obsidiandynamics/kafdrop:latest</name>
                             <build>
                                 <assemblies>
                                     <assembly>
